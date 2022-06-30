@@ -1,0 +1,46 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #FFFFF1;
+}
+
+
+/* Heading of the Page */
+.main-heading {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.sub-heading {
+    color: #6c757d;
+    font-weight: 300;
+}
+
+
+/* Cards of Words */
+.card {
+    color: white;
+}
+
+.card-header {
+    background: var(--bs-red);
+}
+
+.card ul {
+    list-style-type: none;
+}
+
+.card li {
+    background: var(--bs-red);
+    display: inline-block;
+    border-radius: 12px;
+    filter: brightness(140%);
+}
+
+/* No words */
+.no-words {
+    color: #6c757d;
+    font-weight: 300;
+}
